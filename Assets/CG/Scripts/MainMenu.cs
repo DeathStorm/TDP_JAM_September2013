@@ -41,7 +41,10 @@ public class MainMenu : MonoBehaviour {
                 playerNameTextField = GUI.TextArea(new Rect(100, 100, 175, 30), playerNameTextField, 23);
                 if (GUI.Button(new Rect(100, 150, 50, 50), "Start") && playerNameTextField != "Please enter your name")
                 {
+
+                    PlayerPrefs.SetString("playerName", playerNameTextField);
                     choice = 2;
+
                 }
                
                 if (GUI.Button(new Rect(100, 220, 50, 50), "Back"))
