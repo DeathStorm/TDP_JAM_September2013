@@ -95,7 +95,7 @@ public class GameProperties : MonoBehaviour
             {
                 case 0:
 
-                    if (GUI.Button(new Rect(100, 100, 32, 32), wachs1))
+                    if (GUI.Button(new Rect(100, 100, 64, 64), wachs1))
                     {
                         if (money >= items[ENUMS.WACHS.Anfängerwachs.ToString()].einkaufsPreis)
                         {
@@ -103,7 +103,7 @@ public class GameProperties : MonoBehaviour
                             
                         }
                     }
-                    if (GUI.Button(new Rect(150, 100, 32, 32), wachs2))
+                    if (GUI.Button(new Rect(170, 100, 64, 64), wachs2))
                     {
                         if (money >= items[ENUMS.WACHS.Anfängerwachs.ToString()].einkaufsPreis)
                         {
@@ -112,7 +112,7 @@ public class GameProperties : MonoBehaviour
                         }
                     }
 
-                    if (GUI.Button(new Rect(200, 100, 32, 32), wachs3))
+                    if (GUI.Button(new Rect(240, 100, 64, 64), wachs3))
                     {
                         if (money >= items[ENUMS.WACHS.Anfängerwachs.ToString()].einkaufsPreis)
                         {
@@ -121,7 +121,7 @@ public class GameProperties : MonoBehaviour
                         }
                     }
 
-                    if (GUI.Button(new Rect(250, 100, 32, 32), wachs4))
+                    if (GUI.Button(new Rect(310, 100, 64, 64), wachs4))
                     {
                         if (money >= items[ENUMS.WACHS.Anfängerwachs.ToString()].einkaufsPreis)
                         {
@@ -130,7 +130,7 @@ public class GameProperties : MonoBehaviour
                         }
                     }
 
-                    if (GUI.Button(new Rect(300, 100, 32, 32), wachs5))
+                    if (GUI.Button(new Rect(380, 100, 64, 64), wachs5))
                     {
                         if (money >= items[ENUMS.WACHS.Anfängerwachs.ToString()].einkaufsPreis)
                         {
@@ -140,7 +140,7 @@ public class GameProperties : MonoBehaviour
 
 
 
-                    if (GUI.Button(new Rect(100, 180, 32, 32), docht1))
+                    if (GUI.Button(new Rect(100, 180, 64, 64), docht1))
                     {
                         if (money >= items[ENUMS.DOCHTE.Anfängerdocht.ToString()].einkaufsPreis)
                         {
@@ -148,7 +148,7 @@ public class GameProperties : MonoBehaviour
 
                         }
                     }
-                    if (GUI.Button(new Rect(150, 180, 32, 32), docht2))
+                    if (GUI.Button(new Rect(170, 180, 64, 64), docht2))
                     {
                         if (money >= items[ENUMS.DOCHTE.Standarddocht.ToString()].einkaufsPreis)
                         {
@@ -156,7 +156,7 @@ public class GameProperties : MonoBehaviour
 
                         }
                     }
-                    if (GUI.Button(new Rect(200, 180, 32, 32), docht3))
+                    if (GUI.Button(new Rect(240, 180, 64, 64), docht3))
                     {
                         if (money >= items[ENUMS.DOCHTE.Guter_docht.ToString()].einkaufsPreis)
                         {
@@ -164,7 +164,7 @@ public class GameProperties : MonoBehaviour
 
                         }
                     }
-                    if (GUI.Button(new Rect(250, 180, 32, 32), docht4))
+                    if (GUI.Button(new Rect(310, 180, 64, 64), docht4))
                     {
                         if (money >= items[ENUMS.DOCHTE.Qualitätsdocht.ToString()].einkaufsPreis)
                         {
@@ -172,7 +172,7 @@ public class GameProperties : MonoBehaviour
 
                         }
                     }
-                    if (GUI.Button(new Rect(300, 180, 32, 32), docht5))
+                    if (GUI.Button(new Rect(380, 180, 64, 64), docht5))
                     {
                         if (money >= items[ENUMS.DOCHTE.Premiumdocht.ToString()].einkaufsPreis)
                         {
@@ -180,7 +180,7 @@ public class GameProperties : MonoBehaviour
                         }
                     }
 
-                    if (GUI.Button(new Rect(100, 250, 150, 30), "Start"))
+                    if (GUI.Button(new Rect(100, 250, 344, 50), "Start"))
                     {  
                         float gesamtPreis = (items[gewaehlterDocht.ToString()].einkaufsPreis +items[gewaehlterWachs.ToString()].einkaufsPreis);
                         if (money >= gesamtPreis)
