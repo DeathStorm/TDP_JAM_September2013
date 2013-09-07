@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+
 
 public class MiniGame : MonoBehaviour
 {
@@ -92,6 +94,23 @@ public class MiniGame : MonoBehaviour
         //GUI.Box(new Rect(curPos, 0, curWidth, barHeight + ueberstand * 2), "");
 
         GUILayout.EndArea();
+
+
+        Dictionary<string, Item> items = new Dictionary<string, Item>();
+        items.Add("Anfängerwachs", new Item(Item.ItemTypes.Wachs, 2f, 2.20f, 1f, 1f));
+        items.Add("Standardwachs", new Item(Item.ItemTypes.Wachs, 4f, 4.40f, 2f, 2f));
+        items.Add("Guter Wachs", new Item(Item.ItemTypes.Wachs, 6f, 6.60f, 4f, 4f));
+        items.Add("Qualitätswachs", new Item(Item.ItemTypes.Wachs, 8f, 8.80f, 6f, 6f));
+        items.Add("Premiumwachs", new Item(Item.ItemTypes.Wachs, 10f, 11.0f, 8f, 8f));
+        
+
+        items.Add("Anfängerdocht", new Item(Item.ItemTypes.Docht, 2f, 2.20f, 1f, 1f));
+        items.Add("StandardDocht", new Item(Item.ItemTypes.Docht, 4f, 4.40f, 2f, 2f));
+        items.Add("Guter Docht", new Item(Item.ItemTypes.Docht, 6f, 6.60f, 4f, 4f));
+        items.Add("Qualitätsdocht", new Item(Item.ItemTypes.Docht, 8f, 8.80f, 6f, 6f));
+        items.Add("Premiumdocht", new Item(Item.ItemTypes.Docht, 10f, 11.0f, 8f, 8f));
+
+
 
     }
 }
