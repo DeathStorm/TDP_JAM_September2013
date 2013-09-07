@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CG\Scripts\GameProperties.cs" />
      <Compile Include="Assets\CG\Scripts\MainMenu.cs" />
      <Compile Include="Assets\CT\MiniGame.cs" />
   </ItemGroup>
