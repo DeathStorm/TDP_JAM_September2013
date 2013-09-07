@@ -12,7 +12,7 @@ public class MiniGame : MonoBehaviour
     float curPos = 0;
     float curWidth = 10;
 
-    public float movingSpeed = 15.0f;
+    public float movingSpeed = 100.0f;
 
     float barWidth = 500;
     float barHeight = 100;
