@@ -5,11 +5,11 @@ public class Item
 {
     public enum ItemTypes { Wachs, Docht };
 
-    ItemTypes itemType;
-    float einkaufsPreis;
-    float verkaufsPreis;
-    float stufe;
-    float schwierigkeit; 
+    public ItemTypes itemType;
+    public float einkaufsPreis;
+    public float verkaufsPreis;
+    public float stufe;
+    public float schwierigkeit; 
 
 
     public Item(ItemTypes itemType, float einkaufsPreis, float verkaufsPreis, float stufe, float schwierigkeit)
